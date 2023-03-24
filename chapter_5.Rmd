@@ -139,7 +139,7 @@ DT::datatable(head(df.mt.out.fl, 100),
 # 获取所有的.out文件名
 df.mt.out.la <- list.files(file.path("data/match"), pattern = "data_exp7_rep_match_.*\\.out$") %>%
   # 对读取到的所有.out文件x都执行函数read.table
-  lapply(function(x) read.table(file.path("data/match", x), header = TRUE)) %>% 
+  lapply(df.mt.out.la,function(x) read.table(file.path("data/match", x), header = TRUE)) %>% 
   # 对所有被read.table处理过的数据执行dplyr的清洗
   lapply(function(df) dplyr::filter(df, Date != "Date") %>% # 因为有些.out文件中部还有变量名，所需需要用filter把这些行过滤掉
                       dplyr::mutate(Date = as.character(Date),Prac = as.character(Prac),
