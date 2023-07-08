@@ -8,11 +8,24 @@ Instructor: Prof. Hu Chuan-Peng
 
 Teaching assistants: Yuki; Hejia Sun; Zheng Cai; Songshi Bai; Caiyu Tian
 
-此仓库为南京师范大学心理学研究生课程。
+此仓库为南京师范大学心理学研究生课程，2023年春季学期的授课内容转为文字稿，见https://github.com/hcp4715/R4PsyBook。
 
-教师：胡传鹏
+教师：胡传鹏(hcp4715 AT hotmail DOT com)
 
 助教：yuki; 孙禾嘉；蔡镇；柏松石；田彩玉
+
+
+## 版权与许可(License)
+
+本仓库中的代码与文字，均由胡传鹏教授与助教团队所创建，采用CC-BY-4.0的版本许可，如需要使用，请引用本仓库网址。
+
+本仓库内容对资料出处均进行详细引用，如果侵权，请随时联系。
+
+Shield: [![CC BY 4.0](https://img.shields.io/badge/License-CC%20BY%204.0-lightgrey.svg)](http://creativecommons.org/licenses/by/4.0/)
+
+This work is licensed under a [Creative Commons Attribution 4.0 International License](http://creativecommons.org/licenses/by/4.0/).
+
+[![CC BY 4.0](https://i.creativecommons.org/l/by/4.0/88x31.png)](http://creativecommons.org/licenses/by/4.0/)
 
 ## 本Repo的文件夹结构(folder structure of this repo)
 
@@ -133,142 +146,24 @@ root_dir
 
 #### 第十二章：从分析到手稿（3学时）
 
-12.1 Rmarkdown
+12.1 papaja工具包的简介及使用
 
-12.2 Latex语法基本介绍
+#### 第十三章：基于估计的统计：Effect size与Meta-analysis（3学时）
 
-12.3 papaja工具包的介绍
+13.1 Effect size
 
-#### 第十三章：多人协作版本控制:Git？（3学时）
+13.2 Meta-analysis
 
-13.1 版本控制与git
+#### 第十四章：计划样本量：Power analysis （3学时）
 
-13.2 多人协作与git
+14.1 什么是Power
 
-#### 第十四章：如何帮助我们计划下一个研究？（3学时）
+14.2 G\*Power中的曲线如何得来？以*t*-test为例 （模拟）
 
-14.1 计算效应量：Meta-analysis
+14.3 如何计划分析方法：以ANOVA为例（模拟）
 
-14.2 计划样本量：Power analysis （模拟）
-
-14.3 计划分析方法：假数据与分析代码（模拟）
-
-14.4 并行处理
-
-#### 第十五章：如何让导师/合作者完全重复我的分析？（3 学时）
+#### 第十五章：如何让导师/合作者完全重复我的分析？（3 学时，学期结束，无法讲到了）
 
 15.1 软件版本记录
 
 15.2 容器技术与docker的使用
-
-### In English
-
-Chapter 1: Why Learn R (3 lessons)
-
-1.1 The use of R in psychological sciences and social sciences
-
-1.2 Sample demonstration of the use of R language
-
-1.3 Course schedule
-
-1.4 How to learn this course well
-
-Chapter 2: How to start using R: (3 lessons)
-
-2.1 Introduction to the data analysis problem to be solved?
-
-2.1 How to install?
-
-2.2 How to facilitate the use of? Introduction to the installation and interface of RStudio
-
-Chapter 3: How to Import Data (3 lessons)
-
-3.1 Path and working directory
-
-3.2 Reading data
-
-3.3 Understanding Data in R (Objects in the R Language)
-
-Chapter 4: How to Clean Up Data I: R Programming Basics (3 lessons)
-
-4.1 Manipulation of R objects
-
-4.2 Logical operations
-
-4.3 Functions
-
-Chapter 5: How to Clean Up Data II: Data Preprocessing (3 lessons)
-
-5.1 Data Preprocessing Preparation
-
-5.2 Basic operations of data preprocessing
-
-5.3 Advanced operations of data preprocessing
-
-Chapter 6: How to Explore Data: Fundamentals of Descriptive Statistics and Data Visualization (3 lessons)
-
-6.1 Descriptive Statistics
-
-6.2 Basic use of ggplot2
-
-6.3 Element control of ggplot2
-
-Chapter 7: How to perform basic data analysis: t-test and anova (3 lessons)
-
-7.1 Syntax implementation
-
-7.2 Flow of analysis
-
-Chapter 8: How to Perform Basic Data Analysis: Correlation and Regression (3 lessons)
-
-8.1 Syntax Implementation
-
-8.2 The flow of analysis
-
-Chapter 9: How to Perform Basic Data Analysis: Mediation Analysis (3 lessons)
-
-9.1 Syntax Implementation
-
-9.2 Flow of analysis
-
-Chapter 10: Are the Results Robust? The effect of using Multiverse comparison method selection on the results (3 lessons)
-
-10.1. Implementation of Multiverse Analysis Methods
-
-10.2 Code integration and normalization
-
-Chapter 11: How to Get Publishable Images: Advanced Data Visualization (3 lessons)
-
-11.1 Layers and Panel Controls for ggplot2
-
-11.2 Combining ggplot2 with other tools
-
-Chapter 12: From Analysis to Manuscript (3 lessons)
-
-12.1 Rmarkdown
-
-12.2 Basic introduction to Latex syntax
-
-12.3 Introduction to the papaja toolkit
-
-Chapter 13: Collaborative Version Control: Git? (3 lessons)
-
-13.1 Version Control and git
-
-13.2 Multi-Person Collaboration and git
-
-Chapter 14: How Can We Help Plan Our Next Study?
-
-14.1 Calculating effect sizes: Meta-analysis
-
-14.2 Planning sample size: Power analysis (simulation)
-
-14.3 Planning analysis methods: Dummy data and analysis codes (simulation)
-
-14.4 Parallel processing
-
-Chapter 15: How do I get my mentor/collaborator to exactly replicate my analysis? (3 lessons)
-
-15.1 Software Version Logging
-
-15.2 Container technology and the use of docker
